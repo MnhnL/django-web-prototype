@@ -22,6 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('apps.glue.urls')),
     path('locations/', include('apps.locations.urls')),
+    path('occurrence/', include('apps.occurrence.urls')),
     path('api/locations/', include('apps.locations.locations_api.urls')),
-
 ]

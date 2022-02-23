@@ -37,6 +37,7 @@ CONTRIB_APPS = [
 ]
 
 CUSTOM_APPS = [
+    'apps.occurrence',
     'apps.glue',
     'apps.locations',
     'apps.locations.locations_api',
